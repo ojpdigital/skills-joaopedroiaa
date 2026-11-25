@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Editor: ideias de reel em colunas</title>
+<style>
+body{margin:0;background:#f4efe6;color:#1d1a16;font:15px/1.45 system-ui,sans-serif}
+header{padding:26px 30px 6px;display:flex;justify-content:space-between;align-items:end}h1{margin:0;font-size:28px}h1 em{color:#e8590c;font-family:Georgia,serif}
+button{background:#1d1a16;color:#fff;border:0;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer}
+.cols{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;padding:18px 30px}
+.col{background:#eae1d2;border-radius:14px;padding:10px;min-height:380px}.col h2{font-size:15px;margin:4px 6px 10px;text-transform:uppercase;letter-spacing:.06em}
+.col[data-c=agora] h2{color:#e8590c}.col[data-c=corta] h2{color:#a33}
+.card{background:#fffdf8;border:2px solid #e3d9c8;border-radius:10px;padding:10px;margin-bottom:8px;cursor:grab}
+.card.drag{opacity:.4}.col.over{outline:3px dashed #e8590c}
+pre{margin:0 30px 30px;background:#16130f;color:#e9e2d6;border-radius:10px;padding:12px;min-height:40px;white-space:pre-wrap}
+</style></head><body>
+<header><div><h1>Ideias de reel, <em>arrasta pra decidir</em></h1><div>Arraste cada card pra uma coluna e exporte a decisão.</div></div><button id="exp">Exportar</button></header>
+<div class="cols">
+<div class="col" data-c="agora"><h2>Agora</h2></div><div class="col" data-c="depois"><h2>Depois</h2></div>
+<div class="col" data-c="talvez"><h2>Talvez</h2></div><div class="col" data-c="corta"><h2>Corta</h2></div></div>
+<pre id="out">(a lista exportada aparece aqui)</pre>
+<script>
+const ideias=["App grátis de IA no celular","Proteger app de cópia por IA","HTML no lugar do Markdown","Skill que faz vídeo explicativo","Clone de voz em 1 minuto","Planilha que o Claude preenche sozinho","Roteiro de 30 s em 3 blocos","Prompt de entrevista pra configurar o Claude"];
+const cols=[...document.querySelectorAll('.col')];
+ideias.forEach((t,i)=>{const c=document.createElement('div');c.className='card';c.draggable=true;c.textContent=t;c.id='i'+i;cols[2].appendChild(c);
+c.ondragstart=e=>{e.dataTransfer.setData('id',c.id);c.classList.add('drag')};c.ondragend=()=>c.classList.remove('drag')});
+cols.forEach(col=>{col.ondragover=e=>{e.preventDefault();col.classList.add('over')};col.ondragleave=()=>col.classList.remove('over');
+col.ondrop=e=>{e.preventDefault();col.classList.remove('over');col.appendChild(document.getElementById(e.dataTransfer.getData('id')))}});
+document.getElementById('exp').onclick=()=>{const r={};cols.forEach(c=>r[c.dataset.c]=[...c.querySelectorAll('.card')].map(x=>x.textContent));
+document.getElementById('out').textContent=JSON.stringify(r,null,1)};
+</script></body></html>

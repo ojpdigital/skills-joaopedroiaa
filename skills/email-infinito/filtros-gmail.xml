@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8'?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+<title>Mail Filters</title>
+<id>tag:mail.google.com,2008:filters:1700000000000,1700000000001,1700000000002,1700000000003,1700000000004,1700000000005,1700000000006,1700000000007,1700000000008,1700000000009,1700000000010,1700000000011</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000000</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+farmacia@gmail.com'/>
+<apps:property name='label' value='Cadastros/farmacia'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000001</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+mercado@gmail.com'/>
+<apps:property name='label' value='Cadastros/mercado'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000002</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+loja@gmail.com'/>
+<apps:property name='label' value='Cadastros/loja'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000003</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+delivery@gmail.com'/>
+<apps:property name='label' value='Cadastros/delivery'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000004</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+banco@gmail.com'/>
+<apps:property name='label' value='Cadastros/banco'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000005</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+viagem@gmail.com'/>
+<apps:property name='label' value='Cadastros/viagem'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000006</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+jogos@gmail.com'/>
+<apps:property name='label' value='Cadastros/jogos'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000007</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+sorteio@gmail.com'/>
+<apps:property name='label' value='Cadastros/sorteio'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000008</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+news@gmail.com'/>
+<apps:property name='label' value='Cadastros/news'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000009</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+app@gmail.com'/>
+<apps:property name='label' value='Cadastros/app'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000010</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+vagas@gmail.com'/>
+<apps:property name='label' value='Cadastros/vagas'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+<entry>
+<category term='filter'></category>
+<title>Mail Filter</title>
+<id>tag:mail.google.com,2008:filter:1700000000011</id>
+<updated>2026-11-20T07:16:08Z</updated>
+<content></content>
+<apps:property name='to' value='SEUNOME+social@gmail.com'/>
+<apps:property name='label' value='Cadastros/social'/>
+<apps:property name='sizeOperator' value='s_sl'/>
+<apps:property name='sizeUnit' value='s_smb'/>
+</entry>
+</feed>

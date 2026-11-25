@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Protótipo: legenda animada do reel</title>
+<style>
+body{margin:0;background:#f4efe6;color:#1d1a16;font:15px/1.5 system-ui,sans-serif;display:grid;grid-template-columns:360px 1fr;min-height:100vh}
+aside{padding:28px;border-right:2px solid #e3d9c8;background:#fffdf8}h1{font-size:24px;margin:0 0 16px}h1 em{color:#e8590c;font-family:Georgia,serif}
+label{display:block;margin:14px 0 4px;font-weight:700}input[type=range]{width:100%;accent-color:#e8590c}.v{float:right;color:#e8590c}
+main{display:flex;align-items:center;justify-content:center}
+.phone{width:300px;height:560px;border-radius:34px;background:#222 url('') center/cover;border:10px solid #111;position:relative;overflow:hidden}
+.phone:before{content:"";position:absolute;inset:0;background:linear-gradient(#5a4a3a,#2a221b)}
+#leg{position:absolute;left:0;right:0;text-align:center;font-weight:900;color:#fff;text-shadow:0 3px 0 #000}
+#leg span{display:inline-block;margin:0 4px}
+pre{background:#16130f;color:#e9e2d6;border-radius:10px;padding:10px;font-size:12px;white-space:pre-wrap}
+</style></head><body>
+<aside><h1>Legenda <em>animada</em></h1>
+<label>Tamanho <span class="v" id="vt"></span></label><input id="t" type="range" min="28" max="72" value="48">
+<label>Altura na tela <span class="v" id="va"></span></label><input id="a" type="range" min="10" max="85" value="62">
+<label>Velocidade (palavra a cada) <span class="v" id="vv"></span></label><input id="vel" type="range" min="120" max="600" value="260">
+<label>Cor de destaque</label><input id="c" type="color" value="#ffb347">
+<label>Valores pra colar no editor</label><pre id="out"></pre></aside>
+<main><div class="phone"><div id="leg"></div></div></main>
+<script>
+const frase="Isso aqui roda sem internet nenhuma".split(" ");const $=id=>document.getElementById(id);let i=0,timer;
+function draw(){const t=$('t').value,a=$('a').value,v=$('vel').value,c=$('c').value;
+$('vt').textContent=t+'px';$('va').textContent=a+'%';$('vv').textContent=v+' ms';
+const L=$('leg');L.style.top=a+'%';L.style.fontSize=t+'px';
+L.innerHTML=frase.map((w,k)=>`<span style="color:${k===i?c:'#fff'};transform:scale(${k===i?1.15:1})">${w}</span>`).join('');
+$('out').textContent=JSON.stringify({tamanho:+t,altura:+a,ms_por_palavra:+v,destaque:c},null,1);}
+function loop(){clearInterval(timer);timer=setInterval(()=>{i=(i+1)%frase.length;draw()},$('vel').value)}
+['t','a','c'].forEach(k=>$(k).oninput=draw);$('vel').oninput=()=>{draw();loop()};draw();loop();
+</script></body></html>

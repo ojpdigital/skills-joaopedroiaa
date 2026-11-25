@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relatório da semana: Markdown x HTML</title>
+<style>
+body{margin:0;background:#f4efe6;color:#1d1a16;font:16px/1.55 system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:34px}h1{font-size:32px;margin:0}h1 em{color:#e8590c;font-family:Georgia,serif}
+.k{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:22px 0}
+.kp{background:#fffdf8;border:2px solid #e3d9c8;border-radius:14px;padding:14px}.kp b{font-size:34px;color:#e8590c;display:block}
+.box{background:#fffdf8;border:2px solid #e3d9c8;border-radius:16px;padding:18px;margin-top:16px}
+.aviso{font-size:13px;color:#6b6359}
+</style></head><body><div class="wrap">
+<h1>Os dois formatos, <em>lado a lado</em></h1>
+<div class="aviso">Exemplo de relatório gerado em HTML. O gráfico conta o que cada formato consegue mostrar, segundo a lista do post da Anthropic (20/05/2026).</div>
+<div class="k"><div class="kp"><b>3</b>coisas que o Markdown mostra bem: título, negrito, lista</div>
+<div class="kp"><b>8</b>tipos de informação que o HTML carrega (tabela, design, desenho, código, interação, fluxo, espaço, imagem)</div>
+<div class="kp"><b>1</b>arquivo: abre em qualquer navegador, sem instalar nada</div></div>
+<div class="box"><b>O que cada formato desenha de verdade</b>
+<svg viewBox="0 0 900 360" width="100%" role="img" aria-label="Gráfico de barras: Markdown 3, HTML 8">
+<g font-family="system-ui" font-size="18">
+<line x1="120" y1="300" x2="860" y2="300" stroke="#cbbfa9" stroke-width="2"/>
+<text x="20" y="130" font-weight="700">Markdown</text><rect x="120" y="100" width="0" height="56" rx="10" fill="#8a8073"><animate attributeName="width" from="0" to="270" dur="1s" fill="freeze"/></rect>
+<text x="400" y="136" font-weight="800" fill="#8a8073">3</text>
+<text x="20" y="230" font-weight="700">HTML</text><rect x="120" y="200" width="0" height="56" rx="10" fill="#e8590c"><animate attributeName="width" from="0" to="720" dur="1.4s" fill="freeze"/></rect>
+<text x="850" y="236" font-weight="800" fill="#e8590c" text-anchor="end">8</text>
+</g></svg></div>
+<div class="box"><b>Fluxo que eu uso</b>
+<svg viewBox="0 0 900 140" width="100%" role="img" aria-label="Fluxo: pedido, Claude gera HTML, abre no navegador, você comenta">
+<g font-family="system-ui" font-size="17" text-anchor="middle">
+<rect x="10" y="40" width="190" height="60" rx="12" fill="#fff" stroke="#1d1a16" stroke-width="2"/><text x="105" y="76">você pede</text>
+<rect x="240" y="40" width="190" height="60" rx="12" fill="#fff" stroke="#1d1a16" stroke-width="2"/><text x="335" y="76">Claude faz o .html</text>
+<rect x="470" y="40" width="190" height="60" rx="12" fill="#fff" stroke="#1d1a16" stroke-width="2"/><text x="565" y="76">abre no navegador</text>
+<rect x="700" y="40" width="190" height="60" rx="12" fill="#e8590c"/><text x="795" y="76" fill="#fff" font-weight="700">você entende de 1 olhada</text>
+<path d="M200 70h36M430 70h36M660 70h36" stroke="#e8590c" stroke-width="4" marker-end="url(#s)"/>
+<defs><marker id="s" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0L8 4L0 8z" fill="#e8590c"/></marker></defs>
+</g></svg></div>
+</div></body></html>

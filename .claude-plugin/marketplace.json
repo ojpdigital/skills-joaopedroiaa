@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "skills-joaopedroiaa",
+  "owner": {
+    "name": "João Pedro (@joaopedroiaa)",
+    "url": "https://www.instagram.com/joaopedroiaa/"
+  },
+  "description": "As skills que o @joaopedroiaa entrega no Instagram, prontas pro Claude Code e pro site do Claude.",
+  "plugins": [
+    {
+      "name": "organizar-galeria",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Organiza milhares de fotos em pastas por assunto, com tags e duplicadas, sem mover nem apagar nada.",
+      "skills": [
+        "./skills/organizar-galeria"
+      ]
+    },
+    {
+      "name": "cortes-virais",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Acha os 5 melhores cortes de um vídeo longo do YouTube, com início, fim, título e gancho.",
+      "skills": [
+        "./skills/cortes-virais"
+      ]
+    },
+    {
+      "name": "design-fino",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "As 10 regras que deixam qualquer tela feita por IA com cara de produto profissional.",
+      "skills": [
+        "./skills/design-fino"
+      ]
+    },
+    {
+      "name": "email-infinito",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Infinitos e-mails num Gmail só, com filtros prontos que separam tudo sozinho.",
+      "skills": [
+        "./skills/email-infinito"
+      ]
+    },
+    {
+      "name": "validar-ideia",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Testa uma ideia de negócio antes de você gastar tempo e dinheiro com ela.",
+      "skills": [
+        "./skills/validar-ideia"
+      ]
+    },
+    {
+      "name": "time-de-marketing",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Um time de marketing inteiro dentro do Claude: copy, SEO, anúncio, e-mail e conselho de estratégia.",
+      "skills": [
+        "./skills/time-de-marketing"
+      ]
+    },
+    {
+      "name": "claude-do-seu-jeito",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "O Claude aprende quem você é, monta o seu segundo cérebro e cria a sua primeira skill.",
+      "skills": [
+        "./skills/claude-do-seu-jeito"
+      ]
+    },
+    {
+      "name": "desmontar-viral",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Desmonta um vídeo viral em gancho, cenas, falas e o porquê de ter funcionado.",
+      "skills": [
+        "./skills/desmontar-viral"
+      ]
+    },
+    {
+      "name": "ia-no-celular",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Roda uma IA no seu celular, sem internet e de graça, escolhendo o modelo pela memória do aparelho.",
+      "skills": [
+        "./skills/ia-no-celular"
+      ]
+    },
+    {
+      "name": "video-estilo-vox",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Faz vídeo explicativo animado no estilo Vox a partir de um roteiro, renderizado em mp4.",
+      "skills": [
+        "./skills/video-estilo-vox"
+      ]
+    },
+    {
+      "name": "html-no-lugar-de-markdown",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Faz o Claude entregar relatório, plano e comparação em página HTML bonita em vez de texto corrido.",
+      "skills": [
+        "./skills/html-no-lugar-de-markdown"
+      ]
+    },
+    {
+      "name": "armadilha-anti-copia",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Protege o seu site ou app contra cópia por IA com armadilhas que não mudam nada pro usuário.",
+      "skills": [
+        "./skills/armadilha-anti-copia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Revisão: o que mudou na página</title>
+<style>
+body{margin:0;background:#f4efe6;color:#1d1a16;font:15px/1.5 system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:32px}
+h1{font-size:30px;margin:0 0 4px}h1 em{color:#e8590c;font-family:Georgia,serif}
+.leg{display:flex;gap:14px;margin:14px 0 22px;font-size:13px}.leg span{display:flex;gap:6px;align-items:center}
+.dot{width:12px;height:12px;border-radius:50%}.alto{background:#d6336c}.medio{background:#f08c00}.baixo{background:#2b8a3e}
+.row{display:grid;grid-template-columns:1fr 340px;gap:18px;margin-bottom:14px}
+pre{margin:0;background:#16130f;color:#e9e2d6;border-radius:12px;padding:14px 16px;font:13px/1.6 ui-monospace,Menlo,monospace;overflow:auto}
+.del{background:rgba(214,51,108,.22);display:block}.add{background:rgba(43,138,62,.25);display:block}
+.nota{background:#fffdf8;border:2px solid #e3d9c8;border-radius:12px;padding:12px 14px;border-left-width:8px}
+.nota.a{border-left-color:#d6336c}.nota.m{border-left-color:#f08c00}.nota.b{border-left-color:#2b8a3e}
+.nota b{display:block;margin-bottom:4px}
+</style></head><body><div class="wrap">
+<h1>O que mudou na <em>página do guia</em></h1>
+<div>3 trechos alterados. Cada um com o diff real e a nota do lado, por gravidade.</div>
+<div class="leg"><span><i class="dot alto"></i>precisa olhar antes de subir</span><span><i class="dot medio"></i>vale conferir</span><span><i class="dot baixo"></i>ok</span></div>
+
+<div class="row"><pre><span class="del">- &lt;h1&gt;Guia grátis: IA no celular&lt;/h1&gt;</span><span class="add">+ &lt;h1&gt;IA no celular sem internet: o passo a passo&lt;/h1&gt;</span></pre>
+<div class="nota b"><b>Título</b>Mais específico, fala o que a pessoa ganha. Ok.</div></div>
+
+<div class="row"><pre><span class="del">- &lt;a href="/baixar"&gt;Baixar&lt;/a&gt;</span><span class="add">+ &lt;a href="https://exemplo.com/app"&gt;Baixar o app&lt;/a&gt;</span></pre>
+<div class="nota a"><b>Link direto</b>O link saiu do domínio e foi pro endereço cru. Confere se é isso mesmo antes de publicar.</div></div>
+
+<div class="row"><pre><span class="del">- &lt;img src="print.png"&gt;</span><span class="add">+ &lt;img src="print.png" alt="tela do app respondendo em modo avião"&gt;</span></pre>
+<div class="nota m"><b>Imagem</b>Ganhou descrição (bom). O arquivo tem 4 MB: comprimir deixa a página abrir mais rápido no 4G.</div></div>
+</div></body></html>

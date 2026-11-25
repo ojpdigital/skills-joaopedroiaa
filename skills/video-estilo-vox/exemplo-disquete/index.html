@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@500;700&family=Instrument+Serif:ital@1&display=block" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <style>
+      :root { --ground:#fbfaf8; --ink:#1a1a1a; --yellow:#FFE619; --blue:#66CFFF; --blue2:#58BCEC; --grey:#8d9399; --font-display:'Archivo Black',sans-serif; }
+      * { margin:0; padding:0; box-sizing:border-box; }
+      html, body { width:1080px; height:1920px; overflow:hidden; background:var(--ground); }
+      #root { position:relative; width:1080px; height:1920px; overflow:hidden; background:var(--ground); font-family:'Archivo',sans-serif; color:var(--ink); }
+      .grain { position:absolute; inset:0; opacity:.16; mix-blend-mode:multiply; pointer-events:none;
+        background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/></filter><rect width='300' height='300' filter='url(%23n)' opacity='.55'/></svg>"); }
+      .scene { position:absolute; inset:0; }
+      .h { font-family:var(--font-display); font-size:104px; line-height:.98; letter-spacing:-.02em; text-transform:uppercase; }
+      .mark { background:linear-gradient(transparent 52%, var(--yellow) 52%, var(--yellow) 92%, transparent 92%); padding:0 10px; }
+      .serif { font-family:'Instrument Serif',serif; font-style:italic; }
+      .paper { position:absolute; background:#fff; box-shadow:0 18px 40px rgba(0,0,0,.18);
+        clip-path:polygon(0 2%,6% 0,14% 1.5%,25% 0,38% 1%,50% 0,63% 1.6%,77% 0,88% 1.2%,100% 0,99% 20%,100% 45%,98.6% 70%,100% 100%,86% 98.6%,70% 100%,55% 98.8%,40% 100%,24% 98.5%,10% 100%,0 98.4%,1.2% 70%,0 45%,1.4% 20%); }
+      .paper img { display:block; width:100%; height:100%; object-fit:cover; filter:grayscale(1) contrast(1.15); }
+      .circle { position:absolute; border:14px solid var(--yellow); border-radius:50%; }
+      .tag { position:absolute; background:var(--ink); color:#fff; font-family:var(--font-display); font-size:40px; padding:10px 22px; text-transform:uppercase; }
+      .big { font-family:var(--font-display); font-size:220px; letter-spacing:-.04em; }
+      .icon { position:absolute; width:170px; height:170px; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="25" data-width="1080" data-height="1920">
+
+      <!-- 1: a pergunta (0-4,6) — zoom-isolation no ícone -->
+      <div id="s1" class="scene clip" data-start="0" data-duration="4.6" data-track-index="0">
+        <div class="h" style="position:absolute;left:80px;top:260px;width:920px"><div id="s1t">Por que o botão de <span class="mark">salvar</span></div><div id="s1t2">ainda é um disquete?</div></div>
+        <svg id="s1i" viewBox="0 0 100 100" style="position:absolute;left:340px;top:930px;width:400px;height:400px">
+          <path d="M8 8h70l14 14v70H8z" fill="#1a1a1a"/><rect x="26" y="8" width="42" height="26" fill="#c9ccd1"/><rect x="54" y="12" width="8" height="18" fill="#1a1a1a"/><rect x="20" y="48" width="60" height="36" fill="#fbfaf8"/><rect x="28" y="58" width="44" height="3" fill="#8d9399"/><rect x="28" y="68" width="44" height="3" fill="#8d9399"/>
+        </svg>
+        <div class="circle" id="s1c" style="left:270px;top:860px;width:540px;height:540px"></div>
+      </div>
+
+      <!-- 2: evidence stack — o objeto real -->
+      <div id="s2" class="scene clip" data-start="4.6" data-duration="5.4" data-track-index="0">
+        <div class="paper" id="s2a" style="left:110px;top:260px;width:860px;height:902px;transform:rotate(-3deg)"><img src="assets/disquete2.jpg" alt="disquete de 3,5 polegadas"/></div>
+        <div class="tag" id="s2tag" style="left:120px;top:1230px">Disquete de 3,5"</div>
+        <div class="h" id="s2t" style="position:absolute;left:80px;top:1340px;width:940px;font-size:84px">Por 20 anos, salvar era <span class="mark">gravar nisso</span></div>
+        <div class="circle" id="s2c" style="left:610px;top:180px;width:300px;height:300px"></div>
+      </div>
+
+      <!-- 3: two-panel compare — 1,44 MB x 1 foto -->
+      <div id="s3" class="scene clip" data-start="10" data-duration="5.6" data-track-index="0">
+        <div class="tag" style="left:80px;top:250px">Cabia</div>
+        <div class="big" id="s3a" style="position:absolute;left:70px;top:330px">1,44<span style="font-size:110px"> MB</span></div>
+        <div style="position:absolute;left:80px;top:640px;width:920px;height:8px;background:var(--ink)" id="s3line"></div>
+        <div class="tag" style="left:80px;top:720px;background:var(--blue);color:var(--ink)">1 foto do celular</div>
+        <div class="big" id="s3b" style="position:absolute;left:70px;top:800px;color:var(--blue2)">~3<span style="font-size:110px"> MB</span></div>
+        <div class="h" id="s3t" style="position:absolute;left:80px;top:1240px;width:940px;font-size:84px">Hoje, uma foto <span class="mark">não cabe</span> num disquete</div>
+        <div class="circle" id="s3c" style="left:30px;top:300px;width:620px;height:300px;border-radius:50%"></div>
+      </div>
+
+      <!-- 4: specimen grid — o ícone ficou em todo lugar -->
+      <div id="s4" class="scene clip" data-start="15.6" data-duration="5.2" data-track-index="0">
+        <div class="h" style="position:absolute;left:80px;top:240px;width:940px"><div id="s4t">O objeto <span class="mark">sumiu</span>.</div><div id="s4t2">O ícone ficou.</div></div>
+        <div id="grid"></div>
+        <div class="paper" id="s4pc" style="left:560px;top:1380px;width:440px;height:324px;transform:rotate(4deg)"><img src="assets/ibm-pc.jpg" alt="IBM PC 5150"/></div>
+      </div>
+
+      <!-- 5: lower-third — o nome -->
+      <div id="s5" class="scene clip" data-start="20.8" data-duration="4.2" data-track-index="0">
+        <div class="serif" id="s5a" style="position:absolute;left:80px;top:520px;font-size:96px">isso tem nome:</div>
+        <div class="h" id="s5t" style="position:absolute;left:80px;top:660px;width:980px;font-size:90px"><span class="mark">esqueumorfismo</span></div>
+        <div id="s5b" style="position:absolute;left:84px;top:860px;width:900px;font-size:48px;font-weight:700;line-height:1.25">o desenho guarda a forma de uma coisa que já não existe</div>
+        <svg viewBox="0 0 100 100" id="s5i" style="position:absolute;left:390px;top:1180px;width:300px;height:300px">
+          <path d="M8 8h70l14 14v70H8z" fill="#1a1a1a"/><rect x="26" y="8" width="42" height="26" fill="#c9ccd1"/><rect x="54" y="12" width="8" height="18" fill="#1a1a1a"/><rect x="20" y="48" width="60" height="36" fill="#fbfaf8"/><rect x="28" y="58" width="44" height="3" fill="#8d9399"/><rect x="28" y="68" width="44" height="3" fill="#8d9399"/>
+        </svg>
+        <div class="circle" id="s5c" style="left:330px;top:1120px;width:420px;height:420px"></div>
+      </div>
+
+      <div class="grain"></div>
+    </div>
+    <script>
+      // grade de ícones de salvar (specimen grid)
+      const g = document.getElementById('grid');
+      const icon = '<svg viewBox="0 0 100 100"><path d="M8 8h70l14 14v70H8z" fill="#1a1a1a"/><rect x="26" y="8" width="42" height="26" fill="#c9ccd1"/><rect x="54" y="12" width="8" height="18" fill="#1a1a1a"/><rect x="20" y="48" width="60" height="36" fill="#fbfaf8"/><rect x="28" y="58" width="44" height="3" fill="#8d9399"/><rect x="28" y="68" width="44" height="3" fill="#8d9399"/></svg>';
+      const labels = [0,1,2,3,4,5,6,7,8]; const rot=[-8,5,-3,7,-6,2,9,-4,4], sz=[150,120,170,130,190,140,125,160,135];
+      labels.forEach((l, i) => {
+        const d = document.createElement('div');
+        d.className = 'gi'; d.style.cssText = `position:absolute;left:${120 + (i % 3) * 300}px;top:${640 + Math.floor(i / 3) * 240}px;width:${sz[i]}px;height:${sz[i]}px;transform:rotate(${rot[i]}deg);${i === 4 ? 'background:var(--yellow);border-radius:50%;padding:22px' : ''}`;
+        d.innerHTML = icon;
+        g.appendChild(d);
+      });
+
+      const tl = gsap.timeline({ paused: true });
+      const pop = { duration: .5, ease: 'back.out(1.8)' };
+      // 1
+      tl.from('#s1t', { y: 80, opacity: 0, duration: .45, ease: 'power3.out' }, .1)
+        .from('#s1t2', { y: 80, opacity: 0, duration: .45, ease: 'power3.out' }, .45)
+        .from('#s1i', { scale: .2, rotation: -25, opacity: 0, ...pop }, 1.0)
+        .from('#s1c', { scale: 0, opacity: 0, duration: .45, ease: 'power2.out' }, 1.5)
+        .to('#s1i', { scale: 1.08, duration: 2.6, ease: 'none' }, 1.6)
+        .to('#s1c', { rotation: 30, duration: 3, ease: 'none' }, 1.6);
+      // 2
+      tl.from('#s2a', { y: 900, rotation: 12, duration: .6, ease: 'power3.out' }, 4.6)
+        .to('#s2a', { scale: 1.06, duration: 4.6, ease: 'none' }, 5.2)
+        .from('#s2c', { scale: 0, opacity: 0, ...pop }, 5.6)
+        .from('#s2tag', { x: -500, duration: .4, ease: 'power3.out' }, 5.9)
+        .from('#s2t', { y: 60, opacity: 0, duration: .45, ease: 'power3.out' }, 6.4);
+      // 3
+      tl.from('#s3a', { x: -700, duration: .5, ease: 'power3.out' }, 10.1)
+        .from('#s3c', { scale: 0, opacity: 0, ...pop }, 10.7)
+        .from('#s3line', { scaleX: 0, transformOrigin: 'left', duration: .4 }, 11.2)
+        .from('#s3b', { x: 700, duration: .5, ease: 'power3.out' }, 11.7)
+        .from('#s3t', { y: 60, opacity: 0, duration: .45, ease: 'power3.out' }, 12.6)
+        .to('#s3b', { scale: 1.12, transformOrigin: 'left center', duration: 1.6, ease: 'none' }, 12.8);
+      // 4
+      tl.from('#s4t', { y: 60, opacity: 0, duration: .4 }, 15.7)
+        .from('#s4t2', { y: 60, opacity: 0, duration: .4 }, 16.3)
+        .from('.gi', { scale: 0, opacity: 0, duration: .35, ease: 'back.out(2)', stagger: .12 }, 16.8)
+        .from('#s4pc', { y: 700, rotation: -10, duration: .5, ease: 'power3.out' }, 18.3)
+        .to('#s4pc', { opacity: .0, duration: .25 }, 19.9);
+      // 5
+      tl.from('#s5a', { opacity: 0, y: 40, duration: .4 }, 20.9)
+        .from('#s5t', { scale: .6, opacity: 0, ...pop }, 21.3)
+        .from('#s5b', { opacity: 0, y: 40, duration: .4 }, 22.0)
+        .from('#s5i', { scale: 0, rotation: 20, ...pop }, 22.5)
+        .from('#s5c', { scale: 0, opacity: 0, duration: .4 }, 22.9)
+        .to('#s5c', { rotation: 40, duration: 2, ease: 'none' }, 23);
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>
