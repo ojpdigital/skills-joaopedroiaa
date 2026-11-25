@@ -126,6 +126,26 @@
       "skills": [
         "./skills/armadilha-anti-copia"
       ]
+    },
+    {
+      "name": "site-pra-negocio",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Acha no Google Maps negócio bem avaliado sem site e gera o site pronto dele num arquivo HTML, pra mostrar pro dono.",
+      "skills": [
+        "./skills/site-pra-negocio"
+      ]
+    },
+    {
+      "name": "achar-clientes",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Monta a sua primeira lista de clientes com o Sellbird, de graça, e deixa todo e-mail esperando a sua aprovação.",
+      "skills": [
+        "./skills/achar-clientes"
+      ]
     }
   ]
 }

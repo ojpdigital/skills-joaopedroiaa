@@ -16,6 +16,8 @@ As skills que eu entrego no Instagram, prontas pra usar. Você cola uma mensagem
 | VOX | [video-estilo-vox](skills/video-estilo-vox) | Vídeo explicativo animado no estilo Vox a partir de um roteiro, em mp4 | [GUIA](skills/video-estilo-vox/GUIA.md) |
 | HTML | [html-no-lugar-de-markdown](skills/html-no-lugar-de-markdown) | O Claude entrega relatório e plano em página HTML bonita em vez de texto corrido | [GUIA](skills/html-no-lugar-de-markdown/GUIA.md) |
 | ARMADILHA | [armadilha-anti-copia](skills/armadilha-anti-copia) | Protege o seu site ou app contra cópia por IA sem mudar nada pro usuário | [GUIA](skills/armadilha-anti-copia/GUIA.md) |
+| SITE | [site-pra-negocio](skills/site-pra-negocio) | Acha no Google Maps negócio bem avaliado sem site e faz o site dele pra você mostrar pro dono | [GUIA](skills/site-pra-negocio/GUIA.md) |
+| CLIENTES | [achar-clientes](skills/achar-clientes) | Monta a sua primeira lista de clientes com o Sellbird, de graça, sem nenhum e-mail sair sem você aprovar | [GUIA](skills/achar-clientes/GUIA.md) |
 
 ## O jeito mais fácil: cole uma mensagem no Claude
 
