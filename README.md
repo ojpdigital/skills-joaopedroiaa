@@ -18,6 +18,8 @@ As skills que eu entrego no Instagram, prontas pra usar. Você cola uma mensagem
 | ARMADILHA | [armadilha-anti-copia](skills/armadilha-anti-copia) | Protege o seu site ou app contra cópia por IA sem mudar nada pro usuário | [GUIA](skills/armadilha-anti-copia/GUIA.md) |
 | SITE | [site-pra-negocio](skills/site-pra-negocio) | Acha no Google Maps negócio bem avaliado sem site e faz o site dele pra você mostrar pro dono | [GUIA](skills/site-pra-negocio/GUIA.md) |
 | CLIENTES | [achar-clientes](skills/achar-clientes) | Monta a sua primeira lista de clientes com o Sellbird, de graça, sem nenhum e-mail sair sem você aprovar | [GUIA](skills/achar-clientes/GUIA.md) |
+| ESTUDIO | [estudio-de-animacao](skills/estudio-de-animacao) | 3 skills grátis que viram o Claude Code num estúdio de animação: história, cenas, narração, música, 3D e efeito sonoro | [GUIA](skills/estudio-de-animacao/GUIA.md) |
+| PLUGIN | [plugin-superpowers](skills/plugin-superpowers) | O Superpowers: o Claude pergunta antes, mostra o plano em partes e só anda com o seu ok | [GUIA](skills/plugin-superpowers/GUIA.md) |
 
 ## O jeito mais fácil: cole uma mensagem no Claude
 

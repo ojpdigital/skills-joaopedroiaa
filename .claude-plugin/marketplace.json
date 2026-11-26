@@ -146,6 +146,26 @@
       "skills": [
         "./skills/achar-clientes"
       ]
+    },
+    {
+      "name": "estudio-de-animacao",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Instala as 3 skills grátis que viram o Claude Code num estúdio de animação (Lemo Opuscar, Blender Skills e Earshot) e faz o seu primeiro vídeo animado.",
+      "skills": [
+        "./skills/estudio-de-animacao"
+      ]
+    },
+    {
+      "name": "plugin-superpowers",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Instala o Superpowers, o plugin grátis que faz o Claude perguntar antes, mostrar o plano em partes e só andar com o seu ok.",
+      "skills": [
+        "./skills/plugin-superpowers"
+      ]
     }
   ]
 }
