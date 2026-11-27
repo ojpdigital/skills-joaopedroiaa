@@ -166,6 +166,16 @@
       "skills": [
         "./skills/plugin-superpowers"
       ]
+    },
+    {
+      "name": "personagem-com-ia",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "A ficha e os prompts pra criar um personagem de IA que posta vídeo todo dia no seu lugar, com rosto e voz sempre iguais e roteiro a partir de um viral do seu nicho.",
+      "skills": [
+        "./skills/personagem-com-ia"
+      ]
     }
   ]
 }

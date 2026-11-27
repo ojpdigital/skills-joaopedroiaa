@@ -1,5 +1,8 @@
 # O que mudou
 
+## 1.3.0 (26/11/2026)
+- Skill nova personagem-com-ia (palavra PERSONAGEM): a ficha e os 6 prompts pra criar um personagem de IA que posta vídeo todo dia, com rosto e voz sempre iguais e roteiro a partir de um viral do nicho. Vem com um exemplo pronto de pet shop.
+
 ## 1.2.0 (26/11/2026)
 - Skill nova estudio-de-animacao (palavra ESTUDIO): instala o Lemo Opuscar, o Blender Skills e o Earshot e faz o primeiro vídeo animado.
 - Skill nova plugin-superpowers (palavra PLUGIN): instala o Superpowers e começa o primeiro projeto com ele.

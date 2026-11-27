@@ -1,0 +1,18 @@
+EXEMPLO. Saída do prompt 2 no teste da skill (26/11/2026), feita com a ficha do Vô Dito (personagem inventado pra este exemplo). Nenhuma imagem foi gerada neste teste.
+
+=== FOTO-BASE (português) ===
+Foto realista, como tirada com um celular bom, vertical 9:16. Do peito pra cima, de frente, olhando direto pra câmera, boca fechada com um leve sorriso. Homem brasileiro de 67 anos, magro, rosto oval, pele morena clara queimada de sol, rugas fundas na testa e pés de galinha de quem ri muito, olhos castanhos pequenos e vivos, sobrancelhas grossas e grisalhas, nariz largo, lábios finos, bigode grisalho bem aparado, sem barba, cabelo branco curto e ralo no alto da cabeça, orelhas um pouco grandes. Veste camisa xadrez de flanela verde e bege com as mangas dobradas e, por cima, um avental jeans azul com uma escova de pelo de cachorro aparecendo no bolso do peito; óculos de leitura de armação marrom pendurados na gola da camisa. Atrás dele, um pouco desfocado: a área de banho e tosa de um pet shop pequeno, parede de azulejo branco, prateleira com frascos de xampu coloridos e uma mesa de tosa de inox. Luz natural, suave, de frente. Sem texto, sem logotipo, sem marca d'água, mãos fora do quadro.
+
+=== FOTO-BASE (inglês) ===
+Realistic photo, as if taken with a good smartphone, vertical 9:16. Chest-up, facing the camera, looking straight into the lens, mouth closed with a slight smile. 67-year-old Brazilian man, slim, oval face, light brown sun-tanned skin, deep forehead wrinkles and crow's feet from laughing a lot, small lively brown eyes, thick gray eyebrows, broad nose, thin lips, neatly trimmed gray mustache, no beard, short thinning white hair on top, slightly large ears. Wearing a green and beige plaid flannel shirt with rolled-up sleeves and, over it, a blue denim apron with a dog grooming brush sticking out of the chest pocket; brown-framed reading glasses hanging from the shirt collar. Behind him, slightly blurred: the bathing and grooming area of a small pet shop, white tiled wall, shelf with colorful shampoo bottles and a stainless steel grooming table. Soft natural light from the front. No text, no logo, no watermark, hands out of frame.
+
+=== FOTO DE APOIO 1: corpo inteiro (gerar com a foto-base como referência) ===
+Mesma pessoa da foto de referência, mesmo rosto, mesma roupa, mesmo cenário. De corpo inteiro, em pé ao lado da mesa de tosa de inox, de frente pra câmera, braços relaxados ao lado do corpo, calça jeans e botina marrom. Foto realista, vertical 9:16, luz natural suave. Sem texto, sem logotipo, sem marca d'água.
+
+=== FOTO DE APOIO 2: três quartos (gerar com a foto-base como referência) ===
+Mesma pessoa da foto de referência, mesmo rosto, mesma roupa, mesmo cenário. Do peito pra cima, rosto levemente virado pra direita (três quartos), olhando pra câmera, leve sorriso. Foto realista, vertical 9:16, luz natural suave. Sem texto, sem logotipo, sem marca d'água, mãos fora do quadro.
+
+=== A REGRA DO ROSTO FIXO ===
+1. Gere de 4 a 8 opções da foto-base, escolha 1 e nunca mais troque. Guarde em referencias/foto-base.png.
+2. Gere as 2 fotos de apoio subindo a foto-base como referência.
+3. Todo vídeo sai de uma dessas 3 fotos, sempre com a mesma roupa e o mesmo cenário. Nunca gere o rosto do zero de novo.
