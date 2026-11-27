@@ -23,6 +23,7 @@ As skills que eu entrego no Instagram, prontas pra usar. Você cola uma mensagem
 | PERSONAGEM | [personagem-com-ia](skills/personagem-com-ia) | A ficha e os prompts pra criar um personagem de IA que posta vídeo todo dia no seu lugar, pro seu perfil ou o seu negócio | [GUIA](skills/personagem-com-ia/GUIA.md) |
 | TOKEN | [economizar-tokens](skills/economizar-tokens) | O modo oficial do Claude Code em que o Sonnet trabalha e o Opus só aconselha, com os subagentes no Haiku, pro limite durar mais | [GUIA](skills/economizar-tokens/GUIA.md) |
 | RECRIAR | [recriar-qualquer-coisa](skills/recriar-qualquer-coisa) | O Craft Anything: estuda um site, jogo ou app e o Claude Code monta a sua versão, conferindo com o original | [GUIA](skills/recriar-qualquer-coisa/GUIA.md) |
+| DARK | [canal-dark-3d](skills/canal-dark-3d) | Monta o seu Short de canal dark em 3D no formato "X vs Y": a ideia, o roteiro em fases, as cenas em corte com as etiquetas, a narração e a pergunta do próximo desafio | [GUIA](skills/canal-dark-3d/GUIA.md) |
 
 ## O jeito mais fácil: cole uma mensagem no Claude
 
@@ -49,7 +50,7 @@ Lá o Claude não clona repositório. Tem dois jeitos:
 1. Mais rápido: cole na conversa "Lê a skill em https://github.com/ojpdigital/skills-joaopedroiaa/blob/main/skills/<nome da skill>/SKILL.md e segue" e depois o que você quer.
 2. Pra deixar instalada: baixe o zip da skill na [página de versões](https://github.com/ojpdigital/skills-joaopedroiaa/releases/latest) (por exemplo `validar-ideia.zip`), vá em Personalização > Skills > Adicionar skill > Fazer upload e escolha o zip, sem abrir.
 
-No site funcionam inteiras: cortes-virais (sem o corte do arquivo), email-infinito, claude-do-seu-jeito, ia-no-celular, html-no-lugar-de-markdown e personagem-com-ia. As outras instalam ferramentas ou mexem em arquivos do seu computador e precisam do Claude Code; no site elas te explicam o caminho, mas não rodam.
+No site funcionam inteiras: cortes-virais (sem o corte do arquivo), email-infinito, claude-do-seu-jeito, ia-no-celular, html-no-lugar-de-markdown, personagem-com-ia e canal-dark-3d. As outras instalam ferramentas ou mexem em arquivos do seu computador e precisam do Claude Code; no site elas te explicam o caminho, mas não rodam.
 
 ## Ou na mão, pelo sistema de plugins do Claude Code
 

@@ -1,5 +1,8 @@
 # O que mudou
 
+## 1.5.0 (27/11/2026)
+- Skill nova canal-dark-3d (palavra DARK): os 6 prompts que montam um Short de canal dark em 3D no formato "X vs Y" (ideia, roteiro em fases, cenas em corte com etiquetas, narração, pergunta do próximo desafio e rotina do canal). Vem com um exemplo pronto, CAIXA D'ÁGUA VS ENCHENTE.
+
 ## 1.4.0 (27/11/2026)
 - Skill nova economizar-tokens (palavra TOKEN): liga o modo advisor oficial do Claude Code (Sonnet trabalha, Opus aconselha) e põe os subagentes no Haiku.
 - Skill nova recriar-qualquer-coisa (palavra RECRIAR): instala o Craft Anything e recria a primeira página com o Claude Code.

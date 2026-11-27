@@ -196,6 +196,16 @@
       "skills": [
         "./skills/recriar-qualquer-coisa"
       ]
+    },
+    {
+      "name": "canal-dark-3d",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Monta o seu Short de canal dark em animação 3D no formato \"X vs Y\": 10 ideias de desafio de sobrevivência, o roteiro em fases (cada fase falha e a próxima melhora), as cenas em corte com as etiquetas, a narração curta e a pergunta do próximo desafio que fecha o loop.",
+      "skills": [
+        "./skills/canal-dark-3d"
+      ]
     }
   ]
 }
