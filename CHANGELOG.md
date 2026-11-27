@@ -1,5 +1,9 @@
 # O que mudou
 
+## 1.4.0 (27/11/2026)
+- Skill nova economizar-tokens (palavra TOKEN): liga o modo advisor oficial do Claude Code (Sonnet trabalha, Opus aconselha) e põe os subagentes no Haiku.
+- Skill nova recriar-qualquer-coisa (palavra RECRIAR): instala o Craft Anything e recria a primeira página com o Claude Code.
+
 ## 1.3.0 (26/11/2026)
 - Skill nova personagem-com-ia (palavra PERSONAGEM): a ficha e os 6 prompts pra criar um personagem de IA que posta vídeo todo dia, com rosto e voz sempre iguais e roteiro a partir de um viral do nicho. Vem com um exemplo pronto de pet shop.
 

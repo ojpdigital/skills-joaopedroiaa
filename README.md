@@ -21,6 +21,8 @@ As skills que eu entrego no Instagram, prontas pra usar. Você cola uma mensagem
 | ESTUDIO | [estudio-de-animacao](skills/estudio-de-animacao) | 3 skills grátis que viram o Claude Code num estúdio de animação: história, cenas, narração, música, 3D e efeito sonoro | [GUIA](skills/estudio-de-animacao/GUIA.md) |
 | PLUGIN | [plugin-superpowers](skills/plugin-superpowers) | O Superpowers: o Claude pergunta antes, mostra o plano em partes e só anda com o seu ok | [GUIA](skills/plugin-superpowers/GUIA.md) |
 | PERSONAGEM | [personagem-com-ia](skills/personagem-com-ia) | A ficha e os prompts pra criar um personagem de IA que posta vídeo todo dia no seu lugar, pro seu perfil ou o seu negócio | [GUIA](skills/personagem-com-ia/GUIA.md) |
+| TOKEN | [economizar-tokens](skills/economizar-tokens) | O modo oficial do Claude Code em que o Sonnet trabalha e o Opus só aconselha, com os subagentes no Haiku, pro limite durar mais | [GUIA](skills/economizar-tokens/GUIA.md) |
+| RECRIAR | [recriar-qualquer-coisa](skills/recriar-qualquer-coisa) | O Craft Anything: estuda um site, jogo ou app e o Claude Code monta a sua versão, conferindo com o original | [GUIA](skills/recriar-qualquer-coisa/GUIA.md) |
 
 ## O jeito mais fácil: cole uma mensagem no Claude
 

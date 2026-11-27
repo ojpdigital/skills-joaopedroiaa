@@ -176,6 +176,26 @@
       "skills": [
         "./skills/personagem-com-ia"
       ]
+    },
+    {
+      "name": "economizar-tokens",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Liga o modo oficial advisor do Claude Code (Sonnet trabalha, Opus aconselha nas partes difíceis) e põe os subagentes no Haiku, pro limite do plano durar mais.",
+      "skills": [
+        "./skills/economizar-tokens"
+      ]
+    },
+    {
+      "name": "recriar-qualquer-coisa",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Instala o Craft Anything, que estuda um site, jogo ou app e faz o Claude Code montar a sua versão, conferindo com o original até ficar parecido.",
+      "skills": [
+        "./skills/recriar-qualquer-coisa"
+      ]
     }
   ]
 }
