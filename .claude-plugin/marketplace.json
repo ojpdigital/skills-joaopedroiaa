@@ -206,6 +206,16 @@
       "skills": [
         "./skills/canal-dark-3d"
       ]
+    },
+    {
+      "name": "virality",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "A skill virality do Jake Schincariol (MIT) em português: acha o que está viralizando no seu nicho, transforma as perguntas dos seus clientes em roteiro viral com o gancho medido e grava com o seu clone na Avatrix.",
+      "skills": [
+        "./skills/virality"
+      ]
     }
   ]
 }

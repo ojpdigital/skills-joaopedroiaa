@@ -1,5 +1,8 @@
 # O que mudou
 
+## 1.6.0 (27/11/2026)
+- Skill nova virality (palavra AVATAR): a skill virality do Jake Schincariol (master-skills, MIT) traduzida, com as ferramentas lendo português, a busca das perguntas reais dos clientes e a gravação com o seu clone na Avatrix no lugar do HeyGen. O método é o original; o que mudou está no CREDITOS.md da skill.
+
 ## 1.5.0 (27/11/2026)
 - Skill nova canal-dark-3d (palavra DARK): os 6 prompts que montam um Short de canal dark em 3D no formato "X vs Y" (ideia, roteiro em fases, cenas em corte com etiquetas, narração, pergunta do próximo desafio e rotina do canal). Vem com um exemplo pronto, CAIXA D'ÁGUA VS ENCHENTE.
 
