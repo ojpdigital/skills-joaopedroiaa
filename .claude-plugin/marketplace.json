@@ -216,6 +216,26 @@
       "skills": [
         "./skills/virality"
       ]
+    },
+    {
+      "name": "melhores-plugins-claude",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Mostra os 25 melhores plugins, skills e conectores grátis de Claude Code no GitHub (conferidos ao vivo), recomenda 2 ou 3 pro projeto do usuário e instala só o que ele aprovar.",
+      "skills": [
+        "./skills/melhores-plugins-claude"
+      ]
+    },
+    {
+      "name": "reuniao-no-claude",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "description": "Guia pra instalar o Yogurt (alternativa aberta e grátis ao Granola, sem robô na chamada), ligar transcrição em português, conectar o MCP local no Claude e usar 9 prompts prontos de pós-reunião.",
+      "skills": [
+        "./skills/reuniao-no-claude"
+      ]
     }
   ]
 }

@@ -1,5 +1,9 @@
 # O que mudou
 
+## 1.7.0 (28/11/2026)
+- Skill nova melhores-plugins-claude (palavra LISTA): os 25 melhores plugins, skills e conectores MCP grátis pro Claude Code no GitHub, conferidos ao vivo, com recomendação de 2 ou 3 pro projeto e comandos prontos.
+- Skill nova reuniao-no-claude (palavra REUNIÃO): guia pra instalar o Yogurt (grava chamadas no Meet, Teams e Zoom sem robô, de graça e local), ativar o modo português, ligar o servidor MCP no Claude e rodar 9 prompts prontos de pós-reunião.
+
 ## 1.6.0 (27/11/2026)
 - Skill nova virality (palavra AVATAR): a skill virality do Jake Schincariol (master-skills, MIT) traduzida, com as ferramentas lendo português, a busca das perguntas reais dos clientes e a gravação com o seu clone na Avatrix no lugar do HeyGen. O método é o original; o que mudou está no CREDITOS.md da skill.
 

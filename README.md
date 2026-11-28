@@ -25,6 +25,8 @@ As skills que eu entrego no Instagram, prontas pra usar. Você cola uma mensagem
 | RECRIAR | [recriar-qualquer-coisa](skills/recriar-qualquer-coisa) | O Craft Anything: estuda um site, jogo ou app e o Claude Code monta a sua versão, conferindo com o original | [GUIA](skills/recriar-qualquer-coisa/GUIA.md) |
 | DARK | [canal-dark-3d](skills/canal-dark-3d) | Monta o seu Short de canal dark em 3D no formato "X vs Y": a ideia, o roteiro em fases, as cenas em corte com as etiquetas, a narração e a pergunta do próximo desafio | [GUIA](skills/canal-dark-3d/GUIA.md) |
 | AVATAR | [virality](skills/virality) | A skill virality do Jake Schincariol em português: as perguntas dos seus clientes viram roteiro viral com o gancho medido, e o seu clone grava na Avatrix sem você pegar na câmera | [GUIA](skills/virality/GUIA.md) |
+| LISTA | [melhores-plugins-claude](skills/melhores-plugins-claude) | Os 25 melhores plugins, skills e conectores grátis pro Claude Code no GitHub, conferidos ao vivo com links oficiais e instalação guiada | [GUIA](skills/melhores-plugins-claude/GUIA.md) |
+| REUNIÃO | [reuniao-no-claude](skills/reuniao-no-claude) | Instala o Yogurt (grava reunião sem robô, grátis e local), liga o português, conecta o MCP no Claude e traz 9 prompts prontos de pós-reunião | [GUIA](skills/reuniao-no-claude/GUIA.md) |
 
 ## O jeito mais fácil: cole uma mensagem no Claude
 
